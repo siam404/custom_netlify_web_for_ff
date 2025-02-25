@@ -1,0 +1,107 @@
+/* 
+ * style.css 
+ * Dark-themed new tab page styling with larger icons and warmer colors.
+ */
+
+/* Page Layout & Background */
+@font-face {
+  font-family: "JetBrains Mono";            /* Name you will use in CSS */
+  src: url("fonts/JetBrainsMono-Bold.woff2") format("woff2");
+  font-weight: 700;                         /* Bold = 700 */
+  font-style: normal;
+}
+
+/* Then apply the font in your rules */
+body {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 700; /* ensures text is displayed in bold weight */
+  background: #0F0F0F;
+  color: #F5C78C;
+  margin: 0;
+  padding: 0;
+  /* etc...*/
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #282828; /* Very dark background */
+  color: #F5C78C;      /* Warm tan text color */
+  font-family: "JetBrains Mono", Consolas, monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/* "Welcome!" Heading */
+h1 {
+  font-size: 3rem;             /* Bigger text size */
+  margin: 0 0 1.5rem 0;
+  letter-spacing: 0px;
+  text-transform: capitalize;
+  color: #F5C78C;
+}
+
+/* Search Form Container */
+.search-form {
+  margin-bottom: -1rem;
+}
+
+/* Search Box Input */
+.search-form input {
+  width: 190px;
+  max-width: 90vw;
+  font-size: 1rem;
+  padding: 0.6rem 1rem;
+  border-radius: 28px;
+  border: none;
+  outline: none;
+  background-color: #2F2F2F; /* Dark gray box behind text */
+  color: #F5C78C;
+  text-align: center;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); /* Slight shadow around input */
+}
+
+.search-form input::placeholder {
+  color: #585757; /* Placeholder color for "Search with Startpage" text */
+  word-spacing: 2px;
+}
+
+/* Icon Links Row */
+.icon-links {
+  display: flex;
+  gap: 3rem;      /* Space between icons */
+  margin-top: 2rem;
+}
+
+/* Individual Icons */
+.icon-links a img {
+  width: 65px;    /* Increased icon size */
+  height: 65px;
+  transition: transform 0.2s ease;
+  border-radius: 12px; /* Slightly rounded corners */
+}
+
+/* Hover Effect: Slightly enlarge icon on hover */
+.icon-links a:hover img {
+  transform: scale(1.15);
+}
+
+.icon-links1 {
+  display: flex;
+  gap: 3rem;      /* Space between icons */
+  margin-top: 2rem;
+}
+
+.icon-links1 a img {
+  width: 65px;    /* Increased icon size */
+  height: 65px;
+  transition: transform 0.2s ease;
+  border-radius: 12px; /* Slightly rounded corners */
+}
+
+.icon-links1 a:hover img {
+  transform: scale(1.15);
+}
