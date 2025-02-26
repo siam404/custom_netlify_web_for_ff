@@ -17,4 +17,4 @@ A **minimalist and stylish** custom **New Tab page** designed for browsers like 
 #### **1️⃣ Host on GitHub Pages**
 1. **Fork this repository** and clone it:  
    ```sh
-   git clone https://github.com/siam404/custom_css_for_firefox
+   git clone https://github.com/siam404/custom_netlify_web_for_ff
