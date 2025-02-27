@@ -1,6 +1,6 @@
-# 🌟 Custom New Tab Page
+# 🌟 Custom css for firefox...
 
-A **minimalist and stylish** custom **New Tab page** designed for browsers like Chrome and Firefox. It features a **dark theme**, custom icons, and JetBrains Mono font.
+A **minimalist and stylish** custom **New Tab page** designed for browsers like Firefox and Librewolf. It features a **dark theme**, custom icons, and JetBrains Mono font.
 
 ## 📸 Preview
 ![Preview](./preview.png)
@@ -11,7 +11,10 @@ A **minimalist and stylish** custom **New Tab page** designed for browsers like 
 - ⚡ **Quick Access Icons** (YouTube, Reddit, GitHub, etc.)  
 - 🌍 **Fully Responsive Design**
 
-### **1️⃣ Host on GitHub Pages**
+### My Netlify web
+    - https://custom-css-for-firefox.netlify.app/
+
+#### **1️⃣ Host on GitHub Pages**
 1. **Fork this repository** and clone it:  
    ```sh
-   git clone https://github.com/siam404/custom-new-tab.git
+   git clone https://github.com/siam404/custom_netlify_web_for_ff
