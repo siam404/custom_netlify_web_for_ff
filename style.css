@@ -41,7 +41,7 @@ h1 {
   margin: 0 0 1.5rem 0;
   letter-spacing: 0px;
   text-transform: capitalize;
-  color: #F5C78C;
+  color: #f5ca8c;
 }
 
 /* Search Form Container */
@@ -70,38 +70,57 @@ h1 {
 }
 
 /* Icon Links Row */
-.icon-links {
+.icon-links, .icon-links1 {
   display: flex;
-  gap: 3rem;      /* Space between icons */
+  gap: 3rem; /* Space between icons */
   margin-top: 2rem;
 }
 
-/* Individual Icons */
-.icon-links a img {
-  width: 65px;    /* Increased icon size */
+/* Individual Icons - Default Gray Color */
+.icon-links a img, .icon-links1 a img {
+  width: 65px; /* Increased icon size */
   height: 65px;
-  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, filter 0.2s ease;
   border-radius: 12px; /* Slightly rounded corners */
+  filter: grayscale(100%) brightness(60%); /* Default to gray */
 }
 
-/* Hover Effect: Slightly enlarge icon on hover */
-.icon-links a:hover img {
-  transform: scale(1.15);
+/* Hover Effects - Restore Original Color */
+.icon-links a:hover img[alt="YouTube"],
+.icon-links1 a:hover img[alt="Pinterest"] {
+  filter: none; /* Remove gray filter */
 }
 
-.icon-links1 {
-  display: flex;
-  gap: 3rem;      /* Space between icons */
-  margin-top: 2rem;
+.icon-links a:hover img[alt="Reddit"],
+.icon-links1 a:hover img[alt="Facebook"] {
+  filter: none;
 }
 
-.icon-links1 a img {
-  width: 65px;    /* Increased icon size */
-  height: 65px;
-  transition: transform 0.2s ease;
-  border-radius: 12px; /* Slightly rounded corners */
+.icon-links a:hover img[alt="GitHub"],
+.icon-links1 a:hover img[alt="Instagram"] {
+  filter: none;
 }
 
-.icon-links1 a:hover img {
-  transform: scale(1.15);
+.icon-links a:hover img[alt="Monkeytype"],
+.icon-links1 a:hover img[alt="Deepseek"] {
+  filter: none;
+}
+
+.icon-links a:hover img[alt="ChatGPT"],
+.icon-links1 a:hover img[alt="Music"] {
+  filter: none;
+}
+
+.icon-links a:hover img[alt="WhatsApp"],
+.icon-links1 a:hover img[alt="10FastFingers"] {
+  filter: none;
+}
+
+.icon-links a:hover img[alt="Gmail"],
+.icon-links1 a:hover img[alt="HiAnime"] {
+  filter: none;
+}
+
+.icon-links a:hover img[alt="FMHY"] {
+  filter: none;
 }
