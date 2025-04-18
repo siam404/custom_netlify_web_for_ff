@@ -121,6 +121,7 @@ h1 {
   filter: none;
 }
 
-.icon-links a:hover img[alt="FMHY"] {
+.icon-links a:hover img[alt="FMHY"],
+.icon-links1 a:hover img[alt="RiveStream"] {
   filter: none;
 }
